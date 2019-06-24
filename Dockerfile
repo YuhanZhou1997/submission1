@@ -1,7 +1,7 @@
-FROM python:3.5.6-slim
+FROM python:3.5.6-stretch
 
 ## The MAINTAINER instruction sets the Author field of the generated images
-MAINTAINER author@sample.com
+MAINTAINER 1095303450@qq.com
 ## DO NOT EDIT THESE 3 lines
 RUN mkdir /physionet2019
 COPY ./ /physionet2019
