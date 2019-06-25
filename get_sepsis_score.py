@@ -76,5 +76,5 @@ def get_sepsis_score(data, model):
 
 def load_sepsis_model():
     bst1 = xgb.Booster({'nthread': 4})  # init model
-    bst1.load_model(os.getcwd()+'\\xgb1.model')
+    bst1.load_model('/physionet2019/xgb1.model')
     return bst1
